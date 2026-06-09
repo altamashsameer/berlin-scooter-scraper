@@ -8,6 +8,11 @@ on:
 jobs:
   scrape_and_commit:
     runs-on: ubuntu-latest
+    
+    # This block allows the script to save files back to your repository
+    permissions:
+      contents: write
+      
     steps:
     
     # 1. Pull down your repository code
