@@ -4,10 +4,11 @@ import os
 from datetime import datetime
 
 OPERATORS = {
-    "tier": "https://data.tier-services.io/gbfs/2.2/wien/gbfs.json",
-    "lime": "https://data.lime.bike/api/partners/v1/gbfs/wien/gbfs.json",
-    "voi": "https://gbfs.voiapp.io/wien/gbfs.json",
-    "bird": "https://gbfs.bird.co/wien/gbfs.json"
+    "tier": "https://data.tier-services.io/gbfs/2.2/oslo/gbfs.json",
+    "voi": "https://gbfs.voiapp.io/oslo/gbfs.json",
+    "bolt": "https://bolt.eu/gbfs/oslo/gbfs.json",
+    "ryde": "https://gbfs.ryde-technology.com/oslo/gbfs.json",
+    "bysykkel": "https://gbfs.urbansharing.com/oslobysykkel.no/gbfs.json"
 }
 
 
