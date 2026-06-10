@@ -4,11 +4,12 @@ import os
 from datetime import datetime
 
 OPERATORS = {
-    "tier": "https://data.tier-services.io/gbfs/2.2/gbfs.json",
+    "tier": "https://data.tier-services.io/gbfs/2.2/berlin/gbfs.json",
     "lime": "https://data.lime.bike/api/partners/v1/gbfs/berlin/gbfs.json",
     "voi": "https://gbfs.voiapp.io/berlin/gbfs.json",
     "bolt": "https://bolt.eu/gbfs/berlin/gbfs.json"
 }
+
 
 def fetch_json(url):
     try:
